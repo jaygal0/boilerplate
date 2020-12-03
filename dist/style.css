@@ -1,0 +1,22 @@
+/* Media Query Manager
+
+$smallDesk		1200px 
+$tabLand			1200px / 75em
+$tabPort			850px  / 54em	
+$phoneLand		667px	 / 42em	
+$phonePort		580px  / 37em
+
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  box-sizing: border-box; }
